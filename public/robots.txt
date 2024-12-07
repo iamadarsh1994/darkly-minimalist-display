@@ -1,0 +1,25 @@
+
+# This file controls web crawler access to the site
+
+User-agent: *
+# Allow crawlers to access all content
+Disallow:
+
+# Prevent crawlers from indexing admin and sensitive areas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Block crawlers from indexing query parameters to avoid duplicate content issues
+Disallow: /*?*
+
+# Allow crawling of specific important assets
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /images/
+
+# Sitemap URL for search engines
