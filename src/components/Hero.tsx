@@ -1,4 +1,4 @@
-import { FileText, Globe, FolderOpen, BookOpen, ExternalLink } from "lucide-react";
+import { FileText, Globe, FolderOpen, BookOpen, ExternalLink, Github, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -25,6 +25,12 @@ const Hero = () => {
         </a>
         <a href="/blog" className="text-gray-400 hover:text-primary transition-colors" title="Blog">
           <BookOpen size={24} />
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="GitHub">
+          <Github size={24} />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="LinkedIn">
+          <Linkedin size={24} />
         </a>
       </div>
     </section>
