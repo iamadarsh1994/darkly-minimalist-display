@@ -1,3 +1,4 @@
+// import { Toast, ToastProvider } from "@radix-ui/react-toast";
 import { FileText, Globe, FolderOpen, BookOpen, ExternalLink, Github, Linkedin, Twitter, Coffee, BookHeadphones, LinkIcon, Link2, } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -7,6 +8,7 @@ const Hero = () => {
   const toggleHover = () => setIsHovered(!isHovered)
   return (
     <section className="min-h-screen flex flex-col justify-center items-start max-w-3xl mx-auto px-4">
+      
       <h2 className="text-[#1ba5ef] font-mono font-bold mb-4 animate-fade-in">Hello, I'm</h2>
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "200ms" }}>
         <span className="text-[#1ba5ef]">Adarsh</span>
