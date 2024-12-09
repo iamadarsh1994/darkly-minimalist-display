@@ -7,7 +7,7 @@ const Hero = () => {
   const [isHovered, setIsHovered] = useState(false)
   const toggleHover = () => setIsHovered(!isHovered)
   return (
-    <section className="min-h-screen flex flex-col justify-center items-start max-w-3xl mx-auto px-4">
+    <section className="min-h-screen flex flex-col justify-center items-start max-w-3xl mx-auto px-4 ">
       
       <h2 className="text-[#1ba5ef] font-mono font-bold mb-4 animate-fade-in">Hello, I'm</h2>
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "200ms" }}>
@@ -66,12 +66,12 @@ const Hero = () => {
           )}
         </div>
 
-        <a href="https://adarsh.top/" className="text-gray-400 hover:text-primary transition-colors" title="My Site">
+        {/* <a href="https://adarsh.top/" className="text-gray-400 hover:text-primary transition-colors" title="My Site">
           <Globe size={24} />
-        </a>
-        <a href="https://blog.adarsh.top" className="text-gray-400 hover:text-primary transition-colors" title="Blog">
+        </a> */}
+        {/* <a href="https://blog.adarsh.top" className="text-gray-400 hover:text-primary transition-colors" title="Blog">
           <BookHeadphones size={24} />
-        </a>
+        </a> */}
         <a href="https://dev.to/adarsh_mishra" className="text-gray-400 hover:text-primary transition-colors" title="Dev.to Blog">
           <BookOpen size={24} />
         </a>
