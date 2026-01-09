@@ -27,7 +27,7 @@ const Hero = () => {
         style={{ animationDelay: "600ms" }}
       >
         <a
-          href="https://drive.google.com/file/d/1JRDEtJahMLLKQORDtyIy3muyqtZeqmo5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LkaUgyvrY6oO26a4yivp9WUd7XlcOWh2/view?usp=drive_link"
           className="text-gray-400 hover:text-primary transition-colors"
           title="Resume"
         >
