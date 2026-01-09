@@ -83,7 +83,7 @@ const Hero = () => {
               </li>
               <li className="mb-1">
                 <Link
-                  to="https://rps.adarsh.top"
+                  to="https://jokes-1.onrender.com/"
                   className="hover:text-primary transition-colors flex items-center"
                   title="Project-2"
                   target="_blank"
