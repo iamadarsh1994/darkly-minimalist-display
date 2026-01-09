@@ -72,7 +72,7 @@ const Hero = () => {
             <ul className="absolute bg-white shadow-md rounded z-10">
               <li className="mb-1">
                 <Link
-                  to="https://bulkyballpro.netlify.app"
+                  to="https://for-test-beta.vercel.app/"
                   className="hover:text-primary transition-colors flex items-center"
                   title="Project-1"
                   target="_blank"
